@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.212fe4c8.css",
-    "main.js": "/static/js/main.178054b6.js",
-    "static/js/787.dd4029b4.chunk.js": "/static/js/787.dd4029b4.chunk.js",
+    "main.css": "/static/css/main.1be37a56.css",
+    "main.js": "/static/js/main.d939cca9.js",
+    "static/media/konoshuba-aqua.gif": "/static/media/konoshuba-aqua.ee2010cb705e6a9525fc.gif",
     "static/media/ConorKennedy_Resume.pdf": "/static/media/ConorKennedy_Resume.3d2e637d9e2468371d29.pdf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.212fe4c8.css.map": "/static/css/main.212fe4c8.css.map",
-    "main.178054b6.js.map": "/static/js/main.178054b6.js.map",
-    "787.dd4029b4.chunk.js.map": "/static/js/787.dd4029b4.chunk.js.map"
+    "main.1be37a56.css.map": "/static/css/main.1be37a56.css.map",
+    "main.d939cca9.js.map": "/static/js/main.d939cca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.212fe4c8.css",
-    "static/js/main.178054b6.js"
+    "static/css/main.1be37a56.css",
+    "static/js/main.d939cca9.js"
   ]
 }
