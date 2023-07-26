@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1be37a56.css",
-    "main.js": "/static/js/main.d939cca9.js",
+    "main.css": "/static/css/main.80705741.css",
+    "main.js": "/static/js/main.1e7afbbb.js",
     "static/media/konoshuba-aqua.gif": "/static/media/konoshuba-aqua.ee2010cb705e6a9525fc.gif",
-    "static/media/ConorKennedy_Resume.pdf": "/static/media/ConorKennedy_Resume.3d2e637d9e2468371d29.pdf",
+    "static/media/ConorKennedy_Resume2023Update.pdf": "/static/media/ConorKennedy_Resume2023Update.3141d38d5268e1af20af.pdf",
     "index.html": "/index.html",
-    "main.1be37a56.css.map": "/static/css/main.1be37a56.css.map",
-    "main.d939cca9.js.map": "/static/js/main.d939cca9.js.map"
+    "main.80705741.css.map": "/static/css/main.80705741.css.map",
+    "main.1e7afbbb.js.map": "/static/js/main.1e7afbbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1be37a56.css",
-    "static/js/main.d939cca9.js"
+    "static/css/main.80705741.css",
+    "static/js/main.1e7afbbb.js"
   ]
 }
