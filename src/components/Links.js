@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import resume from '../assets/ConorKennedy_Resume2023Update.pdf'
+import resume from '../assets/Conor Kennedy Resume.pdf'
 
 const Links = () => {
     return(
