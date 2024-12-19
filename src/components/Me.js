@@ -4,8 +4,8 @@ import { FaGithub } from "react-icons/fa";
 
 const Me = () => {
   return (
-    <div className="flex flex-col md:flex-row h-screen">
-      <div className="md:w-1/3 lg:w-1/4 bg-gray-100 p-6 fixed md:static h-screen md:h-auto top-0">
+    <div className="flex flex-col md:flex-row h-auto">
+      <div className="w-full md:w-1/3 lg:w-1/4 bg-gray-100 p-6 mb-6 md:mb-0 min-h-screen">
         <div className="m-auto">
           <img src={aqua} alt="Aqua" className="mx-auto mb-4" />
           <h1 className="text-5xl pb-5">
@@ -16,7 +16,7 @@ const Me = () => {
         </div>
       </div>
 
-      <div className="md:ml-auto w-full md:w-2/3 lg:w-3/4 p-6 overflow-y-auto">
+      <div className="w-full md:w-2/3 lg:w-3/4 p-6 overflow-y-auto">
         <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
         <div className="space-y-6">
           <div className="bg-white p-4 shadow-md">
