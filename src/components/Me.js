@@ -1,12 +1,8 @@
 import Links from "./Links";
 import aqua from "../assets/konoshuba-aqua.gif";
-import { FaGithub } from "react-icons/fa";
-import React, { useState } from "react";
-import ReadingListModal from "./ReadingListModal";
+import React from "react";
 
 const Me = () => {
-  const [modalOpen, setModalOpen] = useState(false);
-
   return (
     <div className="flex flex-col md:flex-row h-full">
       <div className="w-full md:w-1/3 lg:w-1/4 bg-gray-100 p-6 md:sticky md:top-0 self-start">
@@ -17,12 +13,6 @@ const Me = () => {
           </h1>
           <p className="text-2xl pb-2">Manga, Code, and Konosuba</p>
           <Links />
-          <button
-            className="bg-blue-500 text-white py-2 px-4 mt-6 hover:bg-blue-700 transition-colors"
-            onClick={() => setModalOpen(true)}
-          >
-            My Reading List
-          </button>
         </div>
       </div>
 
@@ -103,10 +93,6 @@ const Me = () => {
           </div>
         </div>
       </div>
-      <ReadingListModal
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-      />
     </div>
   );
 };
