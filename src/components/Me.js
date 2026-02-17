@@ -11,7 +11,7 @@ const Me = () => {
           <h1 className="text-5xl pb-5">
             Hey, I'm <span className="text-blue-500">Conor</span>
           </h1>
-          <p className="text-2xl pb-2">Manga, Code, and Konosuba</p>
+          <p className="text-2xl pb-2">Manga & Code</p>
           <Links />
         </div>
       </div>
@@ -20,13 +20,15 @@ const Me = () => {
         <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
         <div className="space-y-6">
           <div className="bg-white p-4 shadow-md">
+            <h3 className="text-xl font-bold">AFS</h3>
+            <h4 className="text-l font-bold">Software Engineer</h4>
+          </div>
+          <div className="bg-white p-4 shadow-md">
             <h3 className="text-xl font-bold">Amazon Web Services</h3>
             <h4 className="text-l font-bold">Software Development Engineer</h4>
             <p className="text-gray-700">
-              Currently working on the Fraud Enforcement team, building scalable
+              Previously worked on the Fraud Enforcement team, building scalable
               systems and expanding use cases for AWS Fraud Prevention.
-              Previously contributed to the Fraud Evaluations team on
-              high-impact projects.
             </p>
             <ul className="mt-2 space-y-1">
               <li className="text-sm">
@@ -43,44 +45,38 @@ const Me = () => {
               </li>
             </ul>
           </div>
+          <h2 className="text-2xl font-bold mb-4">Side Projects</h2>
           <div className="bg-white p-4 shadow-md">
-            <h3 className="text-xl font-bold">General Motors</h3>
-            <h4 className="text-l font-bold">Software Engineer</h4>
+            <h3 className="text-xl font-bold">Yu-Gi-Oh! Tools 🎴</h3>
             <p className="text-gray-700">
-              Developed features for GM MotorSports teams, enhancing vehicle
-              performance and optimizing engineering workflows for NASCAR teams.
-              Previously contributed to the Global Product Development team.
+              CLI, API server, and React website for YGO collectors. Search cards,
+              browse 1000+ sets, manage collections, and track prices.
             </p>
             <ul className="mt-2 space-y-1">
               <li className="text-sm">
-                <span className="font-semibold">Tools:</span> C#, Java, Python,
-                React, Azure, MySQL
+                <span className="font-semibold">Tech:</span> TypeScript, React, Node.js, Express
               </li>
               <li className="text-sm">
-                <span className="font-semibold">Key Contributions:</span> Built
-                a feature for comparing race setup fields quickly without having
-                to change views and integrated automated browser tests into the
-                pipeline, improving software quality.
+                <span className="font-semibold">Repos:</span>{" "}
+                <a href="https://github.com/conorkenn/ygo-cli" className="text-blue-500 hover:underline">ygo-cli</a>,{" "}
+                <a href="https://github.com/conorkenn/ygo-website" className="text-blue-500 hover:underline">ygo-website</a>,{" "}
+                <a href="https://github.com/conorkenn/ygo-price-tracker" className="text-blue-500 hover:underline">ygo-price-tracker</a>
               </li>
             </ul>
           </div>
-          <h2 className="text-2xl font-bold mb-4">Side Projects</h2>
           <div className="bg-white p-4 shadow-md">
-            <h3 className="text-xl font-bold">DiceForge</h3>
+            <h3 className="text-xl font-bold">OpenClaw GitHub Assistant</h3>
             <p className="text-gray-700">
-              Tired of all those failed rolls in Baldur's Gate 3, I decided to
-              take matters into my own hands. DiceForge is a fun side project
-              where you can analyze dice rolls with various modifiers to see
-              just how unlucky (or lucky) you really are.
+              OpenClaw skill for GitHub automation. Query repos, check CI status,
+              create issues and PRs, search repositories.
             </p>
             <ul className="mt-2 space-y-1">
               <li className="text-sm">
-                <span className="font-semibold">Tools:</span> Go, Gin, React
+                <span className="font-semibold">Tech:</span> TypeScript, Node.js
               </li>
-              <li className="text-sm hover:text-blue-500">
-                <a href="https://github.com/conorkenn/diceforge">
-                  <FaGithub />
-                </a>
+              <li className="text-sm">
+                <span className="font-semibold">Repo:</span>{" "}
+                <a href="https://github.com/conorkenn/openclaw-github-assistant" className="text-blue-500 hover:underline">openclaw-github-assistant</a>
               </li>
             </ul>
           </div>
